@@ -1,0 +1,4 @@
+when the 2 XML file activity1 and activity1_2 are opened in excel the data gets restructured in 
+tabular form.
+
+The data in activity_2 where 10 members is created in tabular form. 
