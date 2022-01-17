@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Card>
+    <person1>
+        <Name>Joe Martini</Name>
+        <Phone type="home">+1 514 123</Phone>
+        <Phone type="work">+1 514 123</Phone>
+        <Phone type="mobile">+1 514 123</Phone>
+        <email>joe@joe.com</email>
+    </person1>
+    <person2>
+        <Name>Joe hero</Name>
+        <Phone type="home">+1 11 1123</Phone>
+        <Phone type="work">+1 5134 1223</Phone>
+        <Phone type="mobile">+1 5314 4123</Phone>
+        <email>joe@hero.com</email>
+    </person2>
+    <person3>
+        <Name>Joe rods</Name>
+        <Phone type="home">+1 345 123</Phone>
+        <Phone type="work">+1 515 133</Phone>
+        <Phone type="mobile">+1 5334 123</Phone>
+        <email>joe@rods.com</email>
+    </person3>
+</Card>
