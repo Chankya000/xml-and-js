@@ -1,0 +1,11 @@
+I created the DTD file for the assignment xml file which was given in the assignment.
+I first listed all the attributes in the attlist tag and post that added catalog, product
+,catalog_item which consisted of (item_number, price, size) and color_swatch.
+Corresponding to each attribut i added the requierd or implied tag as per the xml.
+
+
+
+Post completion and validation of DTD i created xsd file following the
+russian doll structure.When a element had more than 1 subset of elements within 
+i implemented a complex Type and sequesnce tag to add it. 
+
