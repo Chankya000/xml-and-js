@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+    <script movie="JavaScript">
+      function logResults(event) {
+        event.preventDefault();
+        const form = event.target;
+
+        const fname = form.fname.value;
+        const movie = form.movie.value;
+        const inputValue = form.song;
+        let favouritesong = "";
+        for (let i = 0; inputValue[i]; ++i) {
+          if (inputValue[i].checked) {
+            favouritesong += inputValue[i].value + " ";
+          }
+        }
+        console.log(`Name: ${fname}`);
+        console.log(`Favorite movie: ${movie}`);
+        console.log(`Favourite song: ${favouritesong}`);
+      }
+    </script>
+  </head>
+  <body>
+    <form onSubmit="logResults(event)" action="" method="get">
+      <p>Enter your details here :</p>
+      <label for="fname">Enter your full name</label>
+      <input type="text" name="fname" value="" />
+      <br />
+      <p>Favourite Web movie</p>
+      <input type="radio" name="movie" id="Superbad" value="Superbad" />
+      <label for="Superbad">Superbad</label>
+      <input type="radio" name="movie" id="Gladiator" value="Gladiator" />
+      <label for="Gladiator">Gladiator</label>
+      <input type="radio" name="movie" id="300" value="300" />
+      <label for="300">300</label>
+      <br />
+      <p>Favourite song</p>
+      <input type="checkbox" name="song" id="DilVil" value="DilVil" />
+      <label for="DilVil">DilVil</label>
+      <input type="checkbox" name="song" id="hatjaTau" value="hatjaTau" />
+      <label for="hatjaTau">hatjaTau</label>
+      <input type="checkbox" name="song" id="beautiful" value="beautiful" />
+      <label for="beautiful">beautiful</label>
+      <br />
+
+      <button type="ok">Click ok</button>
+    </form>
+  </body>
+</html>
