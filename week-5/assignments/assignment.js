@@ -6,7 +6,7 @@ const htmlToElement = (html) => {
   };
   
   const renderTable = () => {
-    const table = document.getElementById("html-table");
+    const table = document.getElementById("tables");
   
     let Input_data = [
       {
