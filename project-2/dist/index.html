@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Movie Data</title>
+	</head>
+	<body>
+		<form onsubmit="onSubmit(event)" onreset="onReset()">
+			<input type="number" name="id" id="input-id" placeholder="Search by ID" />
+			<input type="text" name="movie_title" id="input-movie-title" placeholder="Search by movie name" />
+			<input type="text" name="language" id="input-language" placeholder="Search by Language" />
+            <input type="text" name="catch_phrase" id="input-catch-phrase" placeholder="Search by catch phrase" />
+			<button type="submit">Apply filters</button>
+			<button type="reset">Reset</button>
+		</form> <br>
+		<table border="1">
+			<thead>
+				<th>ID</th>
+				<th>Movie Name</th>
+				<th>Movie Language</th>
+				<th>Catch Phrase</th>
+			</thead>
+			<tbody id="table-data"></tbody>
+		</table>
+	</body>
+	<script src="./bundle.js"></script>
+</html>
